@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-10T16:32:05 IST" name="Default suite" finished-at="2025-09-10T16:32:57 IST" duration-ms="52428">
+    <groups>
+    </groups>
+    <test started-at="2025-09-10T16:32:05 IST" name="Default test" finished-at="2025-09-10T16:32:57 IST" duration-ms="52428">
+      <class name="com.shine.automation.tests.JobSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shine.automation.tests.JobSearchTest@6f4a47c7]" started-at="2025-09-10T16:32:05 IST" name="setup" finished-at="2025-09-10T16:32:11 IST" duration-ms="5916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="jobSearchAndApply()[pri:0, instance:com.shine.automation.tests.JobSearchTest@6f4a47c7]" started-at="2025-09-10T16:32:11 IST" name="jobSearchAndApply" finished-at="2025-09-10T16:32:57 IST" duration-ms="45997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSearchAndApply -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.shine.automation.tests.JobSearchTest@6f4a47c7]" started-at="2025-09-10T16:32:57 IST" name="takeScreenshotOnFailure" finished-at="2025-09-10T16:32:57 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=jobSearchAndApply status=SUCCESS method=JobSearchTest.jobSearchAndApply()[pri:0, instance:com.shine.automation.tests.JobSearchTest@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.shine.automation.tests.JobSearchTest@6f4a47c7]" started-at="2025-09-10T16:32:57 IST" name="cleanup" finished-at="2025-09-10T16:32:57 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.shine.automation.tests.JobSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Shine Job Automation Suite">
+    <test name="Job Search and Apply Test">
+        <classes>
+            <class name="com.shine.automation.tests.JobSearchTest"/>
+        </classes>
+    </test>
+</suite>
